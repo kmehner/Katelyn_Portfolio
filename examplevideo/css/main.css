@@ -1,0 +1,107 @@
+
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: floralwhite;
+}
+nav li{
+    display: inline;
+    margin: 20px
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: lightblue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white
+}
+
+.hero-image{
+    background-image:url("https://via.placeholder.com/150");
+    height:40%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: releative
+}
+
+/* linear-gradient(rgba(0,0,0,0.5), rbga(0,0,0,0.5)) */
+
+.hero-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main{
+    width: 70%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px
+}
+
+#side{
+    width: 20%;
+    float: right;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid lightgrey;
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: lightgrey;
+}

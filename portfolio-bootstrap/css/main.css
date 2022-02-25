@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.programmer{
+    border: 2px solid lightblue;
+    background-color: rgb(215, 245, 255);
+}
+
+.programmer-info{
+    background-color: whitesmoke;
+    padding-bottom: 2px;
+}
+
+.contact{
+    background-color: lightblue;
+}
+
+.info-name{
+    background-color: lightslategray;
+}
+
+.info-content{
+    padding-left: 25%;
+}
