@@ -7,89 +7,101 @@
     <meta name="Description" content="Enter your description here"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="/portfolio-bootstrap/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <title>Katelyn's Portfolio</title>
   </head>
 <body>
 
-<div class="container">
-
-  <!-- Row for navbar -->
-  <div class="row">
-
-    <!-- navbar -->
-    <nav class="nav nav-dark bg-dark">
-
-      <div class="container-fluid">
-        <!-- Main titlee -->
-        <h2 class="nav-name text-center text-white p-5">Kate's Portfolio</h2>
-
-        <!-- navbar list -->
-    
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Sample</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-        </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand ps-5" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">About Me</a>
+        <a class="nav-item nav-link" href="#">Contact Me</a>
+        <a class="nav-item nav-link" href="#">More</a>
       </div>
-  
-    </nav>
+    </div>
+  </nav>
+
+
+
+<div class="container-fluid p-0">
+
+  <!-- Hero image -->
+  <div class="row p-0">
+    <div class="has-hero-img"> 
+      <figure class="img-gradient">
+        <img src="images copy/snowy.jpeg" alt="Hero" class="hero-img">
+      </figure>
+      <div class="overlay">
+        <div class="hero-text text-center">
+          <h1 style="font-size: 50px">Kate</h1>
+          <h4>Learning to code 101</h4>
+      </div>
+      </div>
+    </div>
   </div>
 
-  <!-- overview -->
-  <div class="row">
+  <div class="row p-3">
 
-    <div class="col-4 p-3">
-      <div class="card" style="width: 18rem;">
-        <img src="http://via.placeholder.com/500x300" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-4 p-3">
-      <div class="card" style="width: 18rem;">
-        <img src="http://via.placeholder.com/500x300" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-4 p-3">
-      <div class="card" style="width: 18rem;">
-        <img src="http://via.placeholder.com/500x300" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
+    <div class="about-me rounded p-3">
+      <h2 class="text-center">A little bit about me</h2>
+      <div class="me-info">
+        <p>I'm born and raised in Thousand Oaks, California. At home, my support system consists of my parents, my sister, and a few dogs I got in trouble for bringing home. I grew up skiing, hiking, and sailing with my dad (I'm just along for the ride). In highschool, I participated in Y&G and the IB program, and played water polo. In fall of 2018, I moved to Colorado to attend CU Boulder and fell in love with it here. Freshman year, I joined Alpha Phi Sorority, went skiing, and attempted to figure out what I wanted to do with my life. The summer of 2019, I was lucky enough to study abroad in Rosario, Argentina. I lived with a host family and attended a local school to study the history and culture of the country. I learned so much during my time there, and worked on my spanish skills along the way. When Covid hit during my sophomore year in 2020, school went online and I decided to stay in Colorado (mostly to avoid quarantine with a little too much family time). Almost two years later, I've graduated with a Bachelor's Degree in Economics and minors in Business and Spanish. For the past few years, I've worked at Boulder Country Club. After grauting, I started working full-time there. I've rotated between Pool manager, front-desk associate, and a server. Most of all, I still don't have a plan for what I want to do with my life, but I'm finally starting to get a little closer</p>
       </div>
     </div>
 
   </div>
 
-  <div class="row pb-3">
-    <div class="col-12">
-      <div class="programmer rounded">
-        <h2 class="text-center">Why I want to become a programmer?</h2>
+  <!-- overview -->
+  <div class="row p-3">
+
+    <div class="col-4">
+      <div class="card">
+        <img src="images copy/bowtie.jpeg" class="card-img-to" id="milo" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Milo</h5>
+          <p class="card-text">Milo came along in September of 2020. His hobbies include playing, cuddling, and flipping his water fountain. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 ">
+      <div class="card">
+        <img src="images copy/cliff.jpeg" id = "cliff" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Skiing!</h5>
+          <p class="card-text"> I love to ski! I grew up visiting Colorado to ski in the Rockies. I couldn't be more thankful that it is a weekend activity for me now</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card">
+        <img src="images copy/bolsa.jpeg" id = "bolsa" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rosario Rio</h5>
+          <p class="card-text"> Photography is one of my passions.This is a picture from the River in Argentina. </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row p-3">
+
+      <div class="programmer rounded p-3">
+        <h2 class="text-center">Why do I want to become a programmer?</h2>
         <div class="programmer-info">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, necessitatibus reprehenderit tenetur voluptatum molestiae nemo. Tenetur, dolor nam? Aliquid at possimus culpa similique cumque. Iure doloribus ullam cumque delectus iste.</p>
+          <p>I graduated from CU Boulder with a Bachelor's in Economics and minors in Business and Spanish in May of 2021. Unfortunately, like many others, I felt underprepared for the work force. Covid hindered my ability to gain an internship and limited my job options after graduation. Seeing the bright future that the tech-industry holds, I'm hoping to develop my coding skills, and make some friends along the way! </p>
         </div>
       </div>
-    </div>
+
   </div>
 
-  <div class="row pb-3">
+  <div class="row p-3">
     <div class="col-8 text-center">
       <div class="contact">
         <form action="#">
@@ -100,24 +112,118 @@
         </form>
       </div>
     </div>
-    <div class="info col-4 ">
+    <div class="info col-4">
       <h2 class="info-name text-center rounded" >Contact Me</h2>
       <div class="info-content">
-        <div class="email">
-          <p><i class="fas fa-at"></i> kmehner@gmail.com</p>
-        </div>
-        <div class="phone">
-          <p><i class="fas fa-phone"></i> (805) 300-7248</p>
-        </div>
-        <div class="address">
-         <p><i class="fas fa-map-pin"></i> Broomfield, Co, 80021</p>
-        </div>
+        <p><i class="fas fa-home me-3"></i> Broomfield, CO, 80021, US</p>
+        <p>
+          <i class="fas fa-envelope me-3"></i>
+          Kmehner@gmail.com
+        </p>
+        <p><i class="fas fa-phone me-3"></i> +1 (805) 300-7248</p>
       </div>
     </div>
   </div>
   
 
 </div>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with me on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 col-xl-5 mx-auto mb-md-0 mb-4 text-center">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Broomfield, CO, 80021, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            Kmehner@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +1 (805) 300-7248</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
 
 
